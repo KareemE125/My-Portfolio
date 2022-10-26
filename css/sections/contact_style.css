@@ -1,0 +1,128 @@
+/* Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact */
+/* Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact */
+/* Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact */
+
+.contact {
+    background-image: url(../../assets/images/land.webp);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding-top: 8rem !important;
+}
+
+.contact .overlay{
+    background-color: rgba(0, 119, 255, 0.7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.contact .big-card{
+    background-color: white;
+    position: inherit;
+}
+
+.contact h3{
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    font-size: 32px;
+}
+
+.contact h3::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: var(--main-color);
+
+    position: absolute;
+    top: 115%;
+    left: 0;
+}
+
+.contact .left form button{
+    background-color: var(--main-color);
+    color: white;
+    font-size: 19px;
+    padding: 0.6rem 1.5rem;
+    border: 4px solid white;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.contact .left form button:hover{
+    background-color: rgb(51, 147, 255);
+    border-color:#CDE1F8;
+}
+
+.contact .left form input , .contact .left form textarea{
+    border: 1px solid #ced4da;
+    font-weight: 400;
+    transition: 0.2s;
+}
+
+.contact .left form input:focus , .contact .left form textarea:focus{
+    outline: 4px solid rgba(51, 146, 255, 0.482);
+    border-color: var(--main-dark-color);
+}
+
+.contact .right article span{
+    color: var(--text-color);
+    line-height: 2rem;
+}
+
+.contact .right article i{
+    color: var(--main-color);
+}
+
+.contact .right .social-media div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid var(--main-color);
+    background-color: white;
+    transition: 0.5s;
+    margin-right: 1rem;
+}
+
+.contact .right .social-media i{
+    color: var(--text-header-color);
+    font-size: 1.4rem;
+    transition: 0.5s;
+}
+
+.contact .right .social-media div:hover i {
+    color: white;
+}
+
+.contact .right .social-media div:hover {
+    background-color: var(--main-color);
+}
+
+.contact .right .social-media a {
+    text-decoration: none;
+}
+
+
+/* MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY */
+
+@media screen and (max-width:882px){
+  .contact .big-card{
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+  }
+  .contact .left{
+    width: 100% !important;
+  }
+  .contact .right{
+    width: 100% !important;
+    margin-top: 3rem;
+  }
+}

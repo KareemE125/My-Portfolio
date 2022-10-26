@@ -1,0 +1,73 @@
+/* NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR */
+/* NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR */
+/* NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR */
+
+nav{
+    position: fixed !important;
+    left: 0;
+    right: 0;
+    z-index: 9999999;
+
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    padding: 0.5rem 6% !important;
+}
+
+nav .container-fluid{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+nav .navbar-brand{
+    font-size: 28px;
+}
+
+nav .navbar-collapse{
+    flex-grow: 0;
+}
+
+nav a{
+    color: rgb(255, 255, 255) !important;
+    font-weight: 600 !important;
+}
+
+nav a i{
+    font-size: 12px;
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+nav .nav-item{
+    position: relative;
+}
+
+nav .nav-item::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    margin-left: 8px;
+
+    position: absolute;
+    top: 90%;
+    left: 0;
+    transition: 0.5s;
+}
+
+nav .nav-item:hover:after{
+    width: 70%;
+}
+
+
+/* Media Query === Media Query === Media Query === Media Query === Media Query === Media Query*/
+
+
+@media screen and (max-width: 991px) {
+    nav .nav-item::after{
+        margin-left: 0px;
+    }
+    
+    nav .nav-item:hover:after{
+        width: 90%;
+    }
+}
+

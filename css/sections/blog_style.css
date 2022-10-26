@@ -1,0 +1,79 @@
+/* Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog */
+/* Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog */
+/* Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog Blog */
+
+.blog .card{
+    border-radius: 0px 0px 6px 6px;
+}
+
+.blog .card img{
+    border-radius: 0 !important;
+    margin: 0 !important;
+}
+
+.blog .card .card-body{
+    position: relative;
+}
+
+.blog .card .card-body .float-title{
+    background-color: var(--main-color);
+    display: inline-block;
+
+    padding: 4px 12px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 5px;
+
+    position: absolute;
+    bottom: 94%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.blog .card .card-body h5{
+    transition: 0.5s;
+}
+.blog .card .card-body h5:hover{
+    color: var(--main-color);
+}
+
+.blog .card .card-footer img{
+    width: 35px;
+    border-radius: 50% !important;
+    margin-right: 5px !important;
+}
+
+.blog .card .card-footer i{
+    color: var(--main-color);
+}
+
+
+/* MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY */
+
+@media screen and (max-width:1180px){
+    .blog .card .card-footer{
+        display: block !important;
+    }
+
+    .blog .card .card-footer .right{
+        text-align: right;
+    }
+}
+
+@media screen and (max-width:960px){
+    .blog .card .card-footer{
+        display: flex !important;
+    }
+}
+
+
+@media screen and (max-width:380px){
+    .blog .card .card-footer{
+        display: block !important;
+    }
+}
+
+
+
+

@@ -1,0 +1,113 @@
+/* HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME */
+/* HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME */
+/* HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME */
+
+.home{
+    height: 100vh;
+    background-image: url(../../assets/images/asu-full.png), 
+                      linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0, 0.7));
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.home h1{
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 2rem 2rem 2rem;
+}
+
+.home p{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    position: relative;
+}
+
+.home p::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-50%);
+
+    animation: typing 4s infinite;
+}
+
+@keyframes typing{
+    0% { content: "|";}
+    3% { content: "D|";}
+    6% { content: "De|";}
+    9% { content: "Dev|";}
+    12%{ content: "Deve|";}
+    15%{ content: "Devel|";}
+    18%{ content: "Develo|";}
+    21%{ content: "Develop|";}
+    24%{ content: "Develope|";}
+    27%{ content: "Developer|";}
+    30%{ content: "Develope|";}
+    33%{ content: "Develop|";}
+    36%{ content: "Develo|";}
+    39%{ content: "Devel|";}
+    42%{ content: "Deve|";}
+    45%{ content: "Dev|";}
+    48%{ content: "De|";}
+    51%{ content: "D|";}
+    54%{ content: "|";}
+    57%{ content: "E|";}
+    60%{ content: "En|";}
+    63%{ content: "Eng|";}
+    66%{ content: "Engi|";}
+    69%{ content: "Engin|";}
+    72%{ content: "Engine|";}
+    75%{ content: "Enginee|";}
+    78%{ content: "Engineer|";}
+    81%{ content: "Enginee|";}
+    84%{ content: "Engine|";}
+    87%{ content: "Engin|";}
+    90%{ content: "Engi|";}
+    93%{ content: "Eng|";}
+    96%{ content: "En|";}
+    99%{ content: "E";}
+    100%{ content: "|";}
+}
+
+
+
+/* MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY */
+
+@media screen and (max-width: 660px){
+    .home h1{
+        font-size: 50px;
+    }
+
+    .home p{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .home h1{
+        font-size: 40px;
+    }
+
+    .home p{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 440px){
+   
+    .home p{
+        font-size: 18px;
+    }
+}

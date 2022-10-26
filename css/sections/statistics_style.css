@@ -1,0 +1,57 @@
+/* Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics */
+/* Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics Statistics */
+/* Statistics Statistics Statistics Statistics Statistics Statistics Statistics Services Services Services Services Services Services Services Services Services Services Services Services Services Services */
+
+.statistics{
+    background-image: url(../../assets/images/counters-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding: 6rem 1.5rem;
+}
+
+.statistics .overlay{
+    background-color: rgba(0, 119, 255, 0.7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.statistics .content i{
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    border: 10px solid #CDE1F8;
+    padding: 16px 18px 20px 18px;
+    transition: 0.5s;
+}
+
+.statistics .content{
+    position: relative;
+}
+
+.statistics .content h3{
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 10px 0 5px 0;
+}
+
+.statistics .content p{
+    color: white;
+    text-align: center;
+}
+
+
+
+/* MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY */
+
+@media screen and (max-width:630px){
+
+    .statistics .content{
+        flex-direction: column;
+    }
+}

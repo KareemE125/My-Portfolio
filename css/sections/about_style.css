@@ -1,0 +1,60 @@
+/* About About About About About About About About About About About About About About About About About About About About About */
+/* About About About About About About About About About About About About About About About About About About About About About */
+/* About About About About About About About About About About About About About About About About About About About About About */
+
+.about .big-card{
+    background-color: white;
+}
+
+.about .progress{
+    border-radius: 0;
+    height: 12px;
+}
+
+.about .progress-bar{
+    border-radius: 0;
+    height: 12px;
+    background-color: var(--main-color);
+}
+
+.about h3{
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    font-size: 32px;
+}
+
+.about h3::after{
+    content: "";
+    width: 70%;
+    height: 3px;
+    background-color: var(--main-color);
+
+    position: absolute;
+    top: 115%;
+    left: 0;
+}
+
+
+
+/* MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY */
+
+@media screen and (max-width:992px){
+
+    .about .big-card{
+        flex-direction: column;
+    }  
+}
+
+@media screen and (max-width:500px){
+
+    .about .two-side-card{
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .about img{
+        margin-bottom: 2rem;
+    }
+}

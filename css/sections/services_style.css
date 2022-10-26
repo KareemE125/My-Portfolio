@@ -1,0 +1,35 @@
+/* Services Services Services Services Services Services Services Services Services Services Services Services Services Services Services Services Services Services Services Services Services */
+/* Services Services Services Services Services Services Services Services Services Services Services Services Services Services Services Services Services Services Services Services Services */
+/* Services Services Services Services Services Services Services Services Services Services Services Services Services Services Services Services Services Services Services Services Services */
+
+
+.services .card{
+    border: none;
+    border-radius: 10px !important;
+    padding: 2rem 0.5rem;
+    transition: 0.5s;
+}
+
+.services .card:hover{
+    box-shadow: 0 1px 10px 0 rgba(41, 95, 145, 0.5);
+}
+
+.services .card h4, .services .card p{
+    text-align: center;
+}
+
+.services .card i{
+    color: var(--text-color);
+    font-size: 40px;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    border: 10px solid var(--main-color);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.services .card:hover i{
+    background-color: var(--main-color);
+    color: white;
+    border-color: #CDE1F8;
+}

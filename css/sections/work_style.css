@@ -1,0 +1,43 @@
+/* Work Work Work Work Work Work Work Work Work Work Work Work Work Work Work Work Work Work Work Work Work */
+/* Work Work Work Work Work Work Work Work Work Work Work Work Work Work Work Work Work Work Work Work Work */
+/* Work Work Work Work Work Work Work Work Work Work Work Work Work Work Work Work Work Work Work Work Work */
+
+.work .cards{
+   background-color: white;
+}
+
+.work .cards .image{
+    overflow: hidden;
+    height: 300px;
+}
+
+.work .cards h5{
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.work .cards p{
+    font-size: 12px;
+}
+
+.work .cards p span{
+    color: var(--main-color);
+}
+
+.work .cards i{
+    color: var(--main-color);
+    padding: 6px 8px;
+    font-size: 24px;
+    border: 3px solid var(--main-color);
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+.work .cards img{
+    
+    transition: 0.5s;
+}
+
+.work .cards img:hover{
+    transform: scale(1.3);
+}
