@@ -18,6 +18,9 @@
     flex-direction: column;
 }
 
+.home section{
+    position: relative;
+}
 
 .home h1{
     font-size: 72px;
@@ -81,7 +84,44 @@
     100%{ content: "|";}
 }
 
+.home .social-media {    
+    position: absolute;
+    bottom: 8rem;
+    left: 50%;
+    translate: -50%;
+}
 
+.home .social-media div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    border: 3px solid black;
+    background-color: black;
+    transition: 0.5s;
+    margin-right: 1rem;
+}
+
+.home .social-media i{
+    color: #DDCC22;
+    font-size: 1.4rem;
+    transition: 0.5s;
+}
+
+.home .social-media div:hover i {
+    color: black;
+}
+
+.home .social-media div:hover {
+    background-color: #DDCC22;
+    border-color: #DDCC22;
+}
+
+.home .social-media a {
+    text-decoration: none;
+}
 
 /* MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY === MEDIA QUERY */
 
